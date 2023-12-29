@@ -639,3 +639,55 @@ video {
   height: 52.9rem;
   object-fit: cover;
 }
+
+/* ================ CTA ================= */
+
+.cta {
+  margin-top: 14rem;
+  height: 48.8rem;
+}
+
+.cta__inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 133rem;
+  max-width: calc(100% - 48px);
+  height: 100%;
+  margin: 0 auto;
+  background: #fbfaff;
+}
+
+.cta__decor--bg-1 {
+  position: absolute;
+  width: 29.7%;
+  bottom: 0;
+  left: 0;
+}
+
+.cta__decor--bg-2 {
+  position: absolute;
+  width: 69.26%;
+  left: 50%;
+  top: 0;
+  translate: -50%;
+}
+
+.cta__decor--bg-3 {
+  position: absolute;
+  width: 29.7%;
+  top: 0;
+  right: 0;
+}
+
+.cta__desc {
+  width: 57rem;
+  color: #51586a;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem; /* 166.667% */
+  margin-bottom: 3rem;
+}
