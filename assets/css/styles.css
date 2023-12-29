@@ -516,7 +516,7 @@ video {
 /* ================ QUESTION ================= */
 
 .question {
-  max-height: 101.2rem;
+  max-height: 112.7rem;
   padding-top: 9.5rem;
 }
 
@@ -543,10 +543,8 @@ video {
   position: absolute;
   width: 5rem;
   height: 5rem;
-  padding: 1rem;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid rgba(0, 0, 0, 0.3);
   right: 0;
 }
 
@@ -593,6 +591,7 @@ video {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 3rem; /* 166.667% */
+  margin-top: 2.3rem;
 }
 
 .question__item input:checked ~ .question__item--text label .question__btn {
