@@ -110,16 +110,17 @@ a {
 
 .hero__decor--bg01 {
   position: absolute;
-  width: 83.5635rem;
+  width: 43.94%;
   height: 61.8063rem;
   transform: rotate(0deg);
   bottom: 63px;
   scale: 1.2;
+  translate: 12rem;
 }
 
 .hero__decor--bg02 {
   position: absolute;
-  width: 34.1413rem;
+  width: 17.945;
   height: 25.2521rem;
   transform: rotate(0deg);
   bottom: 0;
@@ -127,11 +128,9 @@ a {
 }
 
 .hero__img {
-  position: absolute;
-  bottom: 0;
   width: 51.4rem;
   height: 70.5rem;
-  translate: 9.4rem;
+  translate: 9.4rem 2rem;
 }
 
 .hero__text {
