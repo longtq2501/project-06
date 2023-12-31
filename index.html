@@ -92,19 +92,45 @@
     />
     <!-- GRID SYSTEM -->
     <link rel="stylesheet" href="./assets/css/grid.css" />
+    <!-- RESPONSIVE -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- STYLES -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <!-- HEADER -->
+    <!-- pc header -->
     <header class="header fixed">
       <div class="header__inside">
+        <!-- pc menu -->
         <div class="header__contact">
           <img src="./assets/img/header/logo.svg" class="header__img--letter" />
           <a href="#!" class="header__email">hi@arif.interactive</a>
         </div>
-        <img src="./assets/img/header/boy.svg" alt="" class="header__logo" />
+        <img src="./assets/img/header/boy.png" alt="" class="header__logo" />
         <nav class="header__nav">
+          <a href="#!" class="header__nav--item">Projects</a>
+          <a href="#!" class="header__nav--item">Journey</a>
+          <a href="#!" class="header__nav--item">Service</a>
+          <a href="#!" class="header__nav--item">Contact</a>
+        </nav>
+        <!-- tablet/mobile menu -->
+        <img
+          src="./assets/img/header/icon-email-mb.svg"
+          class="icon-email-mb"
+        />
+        <label for="menu" class="toggle__menu">
+          <img src="./assets/img/header/menu-button.svg" />
+        </label>
+      </div>
+      <div class="mb_nav--separate"></div>
+    </header>
+    <!-- tablet/mobile header -->
+    <header class="mobile__header">
+      <input type="checkbox" name="menu" id="menu" hidden />
+      <label for="menu" class="menu__overlay"></label>
+      <div for="menu" class="menu__drawer">
+        <nav class="header__nav--mb">
           <a href="#!" class="header__nav--item">Projects</a>
           <a href="#!" class="header__nav--item">Journey</a>
           <a href="#!" class="header__nav--item">Service</a>
@@ -708,6 +734,7 @@
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="header__inside footer__inside">
         <div class="header__contact">
