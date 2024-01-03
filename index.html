@@ -152,36 +152,19 @@
           class="hero__decor--bg02"
         />
         <div class="container">
-          <div class="row">
-            <div class="hero__inside">
-              <img src="./assets/img/hero/man.svg" class="hero__img" />
-              <div class="hero__text">
-                <h1 class="hero__title">An Interactive Designer</h1>
-                <p class="hero__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
-                  urna, non nisl tincidunt ut elementum turpis.
-                </p>
-                <div class="button--box">
+          <div class="hero__inner">
+            <div class="row" style="display: flex; align-items: center">
+              <div class="col-lg-5 col-md-12 col-sm-12">
+                <img src="./assets/img/hero/man.svg" alt="" class="hero__img" />
+              </div>
+              <div class="col-lg-5 offset-lg-2 col-md-12 col-sm-12">
+                <div class="hero__text">
+                  <h2 class="h2_title hero__title">An Interactive Designer</h2>
+                  <p class="hero__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                    urna, non nisl tincidunt ut elementum turpis.
+                  </p>
                   <button class="btn">Book a Call</button>
-                  <a href="!#" class="hero__link">My Works</a>
-                </div>
-                <div class="hero__icon--box">
-                  <span class="hero__icon--desc">Follow me on:</span>
-                  <img
-                    src="./assets/img/hero/Goggle.svg"
-                    alt=""
-                    class="hero__icon--item"
-                  />
-                  <img
-                    src="./assets/img/hero/icon.svg"
-                    alt=""
-                    class="hero__icon--item"
-                  />
-                  <img
-                    src="./assets/img/hero/Instagram.svg"
-                    alt=""
-                    class="hero__icon--item"
-                  />
                 </div>
               </div>
             </div>
@@ -191,89 +174,99 @@
       <!-- BRAND -->
       <div class="brand">
         <div class="container">
-          <div class="row" style="flex-wrap: nowrap">
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4">
-              <div class="brand__text--box">
-                <div class="brand__separate"></div>
-                <p class="brand__text">Meet my recent clients</p>
+          <div class="row">
+            <div class="brand__inner">
+              <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="brand__text--box">
+                  <div class="brand__separate"></div>
+                  <p class="brand__text">Meet my recent clients</p>
+                </div>
               </div>
-            </div>
-            <div
-              class="col-xxl-8 offset-xxl-1 col-xl-8 offset-xl-1 col-lg-8 offset-lg-1"
-              style="margin-left: 17px"
-            >
-              <div class="brand__icon--box">
-                <!-- item 1 -->
-                <div class="brand__icon--01">
-                  <img
-                    src="./assets/img/brand/brand-1.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Google</span>
-                </div>
-                <!-- item 2 -->
-                <div class="brand__icon--01 brand__icon--ml25px">
-                  <img
-                    src="./assets/img/brand/brand-2.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Warner Bros</span>
-                </div>
-                <!-- item 3 -->
-                <div class="brand__icon--01 brand__icon--ml30px">
-                  <img
-                    src="./assets/img/brand/brand-3.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Mailchimp</span>
-                </div>
-                <!-- item 4 -->
-                <div class="brand__icon--01">
-                  <img
-                    src="./assets/img/brand/brand-4.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Adobe</span>
-                </div>
-                <!-- item 5 -->
-                <div class="brand__icon--01">
-                  <img
-                    src="./assets/img/brand/brand-5.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Upwork</span>
-                </div>
-                <!-- item 6 -->
-                <div class="brand__icon--01 brand__icon--ml25px">
-                  <img
-                    src="./assets/img/brand/brand-6.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Creative Cloud</span>
-                </div>
-                <!-- item 7 -->
-                <div class="brand__icon--01 brand__icon--ml30px">
-                  <img
-                    src="./assets/img/brand/brand-7.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Woocommerce</span>
-                </div>
-                <!-- item 8 -->
-                <div class="brand__icon--01">
-                  <img
-                    src="./assets/img/brand/brand-8.svg"
-                    alt=""
-                    class="brand__icon"
-                  />
-                  <span class="brand__name-icon">Canva</span>
+              <div
+                class="col-lg-8 offset-lg-1 col-sm-12"
+                style="margin-left: 17px"
+              >
+                <div class="brand__icon--box">
+                  <!-- item 1 -->
+                  <div class="brand__icon--01 brand__order--1">
+                    <img
+                      src="./assets/img/brand/brand-1.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Google</span>
+                  </div>
+                  <!-- item 2 -->
+                  <div
+                    class="brand__icon--01 brand__icon--ml25px brand__order--2"
+                  >
+                    <img
+                      src="./assets/img/brand/brand-2.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Warner Bros</span>
+                  </div>
+                  <!-- item 3 -->
+                  <div
+                    class="brand__icon--01 brand__icon--ml30px brand__order--5"
+                  >
+                    <img
+                      src="./assets/img/brand/brand-3.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Mailchimp</span>
+                  </div>
+                  <!-- item 4 -->
+                  <div class="brand__icon--01 brand__order--6">
+                    <img
+                      src="./assets/img/brand/brand-4.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Adobe</span>
+                  </div>
+                  <!-- item 5 -->
+                  <div class="brand__icon--01 brand__order--3">
+                    <img
+                      src="./assets/img/brand/brand-5.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Upwork</span>
+                  </div>
+                  <!-- item 6 -->
+                  <div
+                    class="brand__icon--01 brand__icon--ml25px brand__order--4"
+                  >
+                    <img
+                      src="./assets/img/brand/brand-6.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Creative Cloud</span>
+                  </div>
+                  <!-- item 7 -->
+                  <div
+                    class="brand__icon--01 brand__icon--ml30px brand__order-7"
+                  >
+                    <img
+                      src="./assets/img/brand/brand-7.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Woocommerce</span>
+                  </div>
+                  <!-- item 8 -->
+                  <div class="brand__icon--01 brand__order-8">
+                    <img
+                      src="./assets/img/brand/brand-8.svg"
+                      alt=""
+                      class="brand__icon"
+                    />
+                    <span class="brand__name-icon">Canva</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -284,9 +277,7 @@
       <section class="service">
         <div class="container">
           <div class="row">
-            <div
-              class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-6 offset-md-3"
-            >
+            <div class="col-lg-6 offset-lg-3 col-sm-12">
               <div class="service__text--box">
                 <h2 class="h2__title">Specialties</h2>
                 <p class="service__desc">
@@ -296,9 +287,9 @@
               </div>
             </div>
           </div>
-          <div class="row row-cols-3">
+          <div class="row row-cols-3 row-cols-sm-1">
             <!-- card 1 -->
-            <div class="col">
+            <div class="col col-sm-12">
               <div class="service__inner">
                 <img
                   src="./assets/img/service/c1.svg"
@@ -313,7 +304,7 @@
               </div>
             </div>
             <!-- card 2 -->
-            <div class="col">
+            <div class="col col-sm-12">
               <div class="service__inner">
                 <img
                   src="./assets/img/service/c2.svg"
@@ -328,7 +319,7 @@
               </div>
             </div>
             <!-- card 3 -->
-            <div class="col">
+            <div class="col col-sm-12">
               <div class="service__inner">
                 <img
                   src="./assets/img/service/c3.svg"
@@ -350,10 +341,10 @@
         <div class="container">
           <!-- row 1 -->
           <div class="row" style="margin-bottom: 7rem">
-            <div class="col-xl-5 col-lg-5 col-md-5">
+            <div class="col-lg-5 col-md-5 col-sm-12">
               <p class="work__title">Take a look at my recent projects</p>
             </div>
-            <div class="col-xl-6 offset-xl-1">
+            <div class="col-lg-6 offset-lg-1 col-sm-12">
               <p class="work__desc">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
                 urna, non nisl tincidunt ut elementum turpis.
@@ -363,7 +354,7 @@
           <!-- row 2 -->
           <div class="row">
             <!-- card 1 -->
-            <div class="col-xl-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="work__card--box">
                 <div class="work__card--text">
                   <h3 class="work__card--title">Wally Website</h3>
@@ -385,7 +376,7 @@
               </div>
             </div>
             <!-- card 2 -->
-            <div class="col-xl-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="work__card--box">
                 <div class="work__card--text">
                   <h3 class="work__card--title">Banking App</h3>
@@ -407,7 +398,7 @@
               </div>
             </div>
             <!-- card 3 -->
-            <div class="col-xl-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="work__card--box">
                 <div class="work__card--text">
                   <h3 class="work__card--title">Web App</h3>
@@ -429,7 +420,7 @@
               </div>
             </div>
             <!-- card 4 -->
-            <div class="col-xl-6">
+            <div class="col-lg-6 col-sm-12">
               <div class="work__card--box">
                 <div class="work__card--text">
                   <h3 class="work__card--title">Oculus Website</h3>

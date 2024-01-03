@@ -94,18 +94,8 @@ a {
 
 .hero {
   position: relative;
-  max-height: 81.3rem;
+  height: 77.9rem;
   background: #fbfaff;
-}
-
-.hero__decor--bg01 {
-  position: absolute;
-  width: 43.94%;
-  height: 61.8063rem;
-  transform: rotate(0deg);
-  bottom: 63px;
-  scale: 1.2;
-  translate: 12rem;
 }
 
 .hero__decor--bg02 {
@@ -117,57 +107,16 @@ a {
   right: 0;
 }
 
-.hero__inside {
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 514px 1fr;
-  gap: 0px 156px;
-  justify-items: stretch;
-  width: 1170px;
-  min-height: 705px;
-  max-width: calc(100% - 24px);
-  margin: 0 auto;
+.hero__inner {
+  position: absolute;
+  bottom: 0;
+  min-height: 77.9rem;
 }
 
-
-
-.hero__desc {
-  width: 37rem;
-  color: #51586a;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 3rem; /* 166.667% */
-  margin-bottom: 5rem;
+.hero__img {
+  margin-left: 7.4rem;
 }
 
-.button--box {
-  margin-bottom: 10.4rem;
-}
-
-.hero__link {
-  color: #080415;
-  font-size: 1.8rem;
-  font-weight: 700;
-  line-height: 3rem; /* 166.667% */
-  text-decoration-line: underline;
-  margin-left: 3rem;
-}
-
-.hero__icon--box {
-  display: flex;
-  align-items: center;
-}
-
-.hero__icon--desc {
-  color: #51586a;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 3rem; /* 187.5% */
-}
-
-.hero__icon--item {
-  padding: 0rem 1rem;
-}
 /* ================ BRAND ================= */
 .brand {
   margin-top: 10rem;
@@ -184,13 +133,6 @@ a {
   line-height: 5rem; /* 119.048% */
   letter-spacing: -0.168rem;
   width: 23.5rem;
-}
-
-.brand__separate {
-  width: 8.6rem;
-  height: 0.1rem;
-  background: #5d3bee;
-  margin: 2rem 1.3rem 0rem 0rem;
 }
 
 .brand__img--box {
@@ -221,21 +163,12 @@ a {
   white-space: nowrap;
 }
 
-.brand__icon--ml25px {
-  margin-left: 2.5rem;
-}
-
-.brand__icon--ml30px {
-  margin-left: 3rem;
-}
-
 /* ================ SERVICE ================= */
 .service {
   padding: 13.3rem 0rem 14rem;
 }
 
 .service__desc {
-  width: 53.4rem;
   color: #51586a;
   text-align: center;
   font-size: 1.8rem;
@@ -280,24 +213,6 @@ a {
   height: 101.4rem;
   background: #5d3bee;
   padding: 8.6rem 0rem;
-}
-
-.work__title {
-  color: #fff;
-  width: 46.8rem;
-  font-size: 5.6rem;
-  font-weight: 500;
-  line-height: 6.6rem; /* 117.857% */
-  letter-spacing: -0.224rem;
-}
-
-.work__desc {
-  width: 37rem;
-  color: #fff;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 3rem; /* 166.667% */
-  opacity: 0.7;
 }
 
 .work__card--box {
