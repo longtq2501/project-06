@@ -112,6 +112,9 @@
 
 /* tablet and mobile */
 @media screen and (max-width: 991.98px) {
+  .service__text--box {
+    width: 100vw;
+  }
 }
 
 /* tablet */
@@ -205,10 +208,9 @@
   }
 
   .hero__img {
-    position: absolute;
-    bottom: 0;
     width: 25.9rem;
     height: 35.5rem;
+    margin-left: 6.4rem;
   }
 
   .hero__text {
